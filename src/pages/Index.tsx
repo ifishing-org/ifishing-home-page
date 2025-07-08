@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Fish, MapPin, Calendar, CreditCard, Star, Users, Shield, Target } from "lucide-react";
+import heroImage from "../assets/hero-fishing.png";
 
 const Index = () => {
   return (
@@ -24,23 +25,28 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 px-4 bg-gradient-to-br from-primary/10 via-background to-secondary/10">
-        <div className="container mx-auto text-center">
-          <Badge className="mb-6 bg-gradient-to-r from-accent to-secondary text-white">
+      <section className="relative py-20 px-4 overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroImage})` }}
+        />
+        <div className="absolute inset-0 bg-black/40" />
+        <div className="container mx-auto text-center relative z-10">
+          <Badge className="mb-6 bg-primary/90 text-white backdrop-blur-sm">
             🎣 Revolucionando a Pesca no Brasil
           </Badge>
-          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white drop-shadow-lg">
             Conectamos Guias de Pesca a Pescadores
           </h1>
-          <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto drop-shadow-md">
             A plataforma que liberta guias de pesca da dependência de pousadas e intermediários, 
             oferecendo autonomia, visibilidade e ferramentas modernas para aumentar suas diárias.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="text-lg px-8 bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90">
+            <Button size="lg" className="text-lg px-8 bg-primary hover:bg-primary/90 text-white">
               Em Breve no App Store <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 border-primary text-primary hover:bg-primary hover:text-white">
+            <Button variant="outline" size="lg" className="text-lg px-8 border-white text-white hover:bg-white hover:text-primary backdrop-blur-sm">
               Em Breve no Google Play
             </Button>
           </div>
@@ -99,9 +105,9 @@ const Index = () => {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <Card className="text-center bg-gradient-to-b from-primary/10 to-primary/5 border-primary/20">
+            <Card className="text-center bg-white/80 backdrop-blur-sm border-primary/20 hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-16 h-16 bg-gradient-to-r from-primary to-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <Users className="w-8 h-8 text-white" />
                 </div>
                 <CardTitle className="text-primary">Perfil Personalizado</CardTitle>
@@ -111,33 +117,33 @@ const Index = () => {
               </CardHeader>
             </Card>
             
-            <Card className="text-center bg-gradient-to-b from-secondary/10 to-secondary/5 border-secondary/20">
+            <Card className="text-center bg-white/80 backdrop-blur-sm border-primary/20 hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-16 h-16 bg-gradient-to-r from-secondary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <MapPin className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle className="text-secondary">Mapeamento</CardTitle>
+                <CardTitle className="text-primary">Mapeamento</CardTitle>
                 <CardDescription>
                   Pescadores encontram guias por região e preferências.
                 </CardDescription>
               </CardHeader>
             </Card>
             
-            <Card className="text-center bg-gradient-to-b from-accent/10 to-accent/5 border-accent/20">
+            <Card className="text-center bg-white/80 backdrop-blur-sm border-primary/20 hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-16 h-16 bg-gradient-to-r from-accent to-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <Calendar className="w-8 h-8 text-white" />
                 </div>
-                <CardTitle className="text-accent">Agendamento</CardTitle>
+                <CardTitle className="text-primary">Agendamento</CardTitle>
                 <CardDescription>
                   Sistema de reservas online com disponibilidade em tempo real.
                 </CardDescription>
               </CardHeader>
             </Card>
             
-            <Card className="text-center bg-gradient-to-b from-primary/10 to-accent/5 border-primary/20">
+            <Card className="text-center bg-white/80 backdrop-blur-sm border-primary/20 hover:shadow-lg transition-shadow">
               <CardHeader>
-                <div className="w-16 h-16 bg-gradient-to-r from-primary to-accent rounded-full flex items-center justify-center mx-auto mb-4">
+                <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
                   <CreditCard className="w-8 h-8 text-white" />
                 </div>
                 <CardTitle className="text-primary">Pagamento</CardTitle>
@@ -205,7 +211,7 @@ const Index = () => {
       </section>
 
       {/* Lançamento Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-primary via-secondary to-accent text-white">
+      <section className="py-20 px-4 bg-primary text-white">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Aplicativo em Desenvolvimento</h2>
           <p className="text-xl mb-8 opacity-90">
