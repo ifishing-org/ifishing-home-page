@@ -19,10 +19,6 @@ const Index = () => {
             <a href="#como-funciona" className="text-muted-foreground hover:text-primary transition-colors">Como Funciona</a>
             <a href="#beneficios" className="text-muted-foreground hover:text-primary transition-colors">Benefícios</a>
             <a href="#contato" className="text-muted-foreground hover:text-primary transition-colors">Contato</a>
-            <Button variant="outline" size="sm">Entrar</Button>
-            <Button size="sm" className="bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90">
-              Começar Agora
-            </Button>
           </nav>
         </div>
       </header>
@@ -42,10 +38,10 @@ const Index = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="text-lg px-8 bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90">
-              Sou Guia de Pesca <ArrowRight className="ml-2 w-5 h-5" />
+              Em Breve no App Store <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
             <Button variant="outline" size="lg" className="text-lg px-8 border-primary text-primary hover:bg-primary hover:text-white">
-              Quero Pescar
+              Em Breve no Google Play
             </Button>
           </div>
         </div>
@@ -208,36 +204,18 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Estatísticas */}
-      <section className="py-16 px-4 bg-primary text-white">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div>
-              <div className="text-4xl font-bold mb-2">1000+</div>
-              <div className="text-primary-foreground/80">Guias Cadastrados</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold mb-2">5000+</div>
-              <div className="text-primary-foreground/80">Pescadores Ativos</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold mb-2">50+</div>
-              <div className="text-primary-foreground/80">Regiões Atendidas</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
+      {/* Lançamento Section */}
       <section className="py-20 px-4 bg-gradient-to-r from-primary via-secondary to-accent text-white">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Pronto para Aumentar suas Diárias?</h2>
+          <h2 className="text-3xl font-bold mb-4">Aplicativo em Desenvolvimento</h2>
           <p className="text-xl mb-8 opacity-90">
-            Junte-se aos guias de pesca que já estão conquistando mais autonomia e clientes.
+            O iFishing está sendo desenvolvido e em breve estará disponível para download nas lojas de aplicativos.
           </p>
-          <Button size="lg" variant="secondary" className="text-lg px-8 bg-white text-primary hover:bg-white/90">
-            Cadastre-se Gratuitamente <ArrowRight className="ml-2 w-5 h-5" />
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
+            <Badge className="bg-white/20 text-white">
+              🚀 Lançamento em Breve
+            </Badge>
+          </div>
         </div>
       </section>
 
