@@ -42,12 +42,9 @@ const Index = () => {
             A plataforma que liberta guias de pesca da dependência de pousadas e intermediários, 
             oferecendo autonomia, visibilidade e ferramentas modernas para aumentar suas diárias.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button size="lg" className="text-lg px-8 bg-primary hover:bg-primary/90 text-white">
-              Em Breve no App Store <ArrowRight className="ml-2 w-5 h-5" />
-            </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 border-white text-white hover:bg-white hover:text-primary backdrop-blur-sm">
-              Em Breve no Google Play
+              Em Breve na App Store e Google Play <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </div>
         </div>
