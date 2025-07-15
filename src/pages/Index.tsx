@@ -39,8 +39,8 @@ const Index = () => {
             Conectamos Guias de Pesca a Pescadores
           </h1>
           <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto drop-shadow-md">
-            A plataforma que liberta guias de pesca da dependência de pousadas e intermediários, 
-            oferecendo autonomia, visibilidade e ferramentas modernas para aumentar suas diárias.
+            A plataforma que oferece aos guias de pesca maior autonomia, visibilidade e 
+            ferramentas modernas para aumentar suas diárias e expandir seu negócio.
           </p>
           <div className="flex justify-center">
             <Button size="lg" className="text-lg px-8 bg-primary hover:bg-primary/90 text-white">
@@ -54,36 +54,36 @@ const Index = () => {
       <section className="py-20 px-4 bg-muted/30">
         <div className="container mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4 text-primary">O Problema dos Guias de Pesca</h2>
+            <h2 className="text-3xl font-bold mb-4 text-primary">Desafios dos Guias de Pesca</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Guias enfrentam desafios significativos que limitam seu crescimento e autonomia profissional.
+              Guias enfrentam desafios que limitam seu crescimento e autonomia profissional.
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="border-l-4 border-l-primary bg-white/80 backdrop-blur-sm">
               <CardHeader>
-                <CardTitle className="text-primary">Dependência de Pousadas</CardTitle>
+                <CardTitle className="text-primary">Maior Autonomia</CardTitle>
                 <CardDescription>
-                  Altas comissões reduzem drasticamente a margem de lucro dos guias.
+                  Oportunidade de trabalhar de forma independente com maior controle sobre as diárias.
                 </CardDescription>
               </CardHeader>
             </Card>
             
             <Card className="border-l-4 border-l-secondary bg-white/80 backdrop-blur-sm">
               <CardHeader>
-                <CardTitle className="text-secondary">Baixa Visibilidade</CardTitle>
+                <CardTitle className="text-secondary">Visibilidade Digital</CardTitle>
                 <CardDescription>
-                  Falta de presença digital impede o alcance de novos clientes.
+                  Necessidade de presença digital para alcançar novos clientes e expandir o negócio.
                 </CardDescription>
               </CardHeader>
             </Card>
             
             <Card className="border-l-4 border-l-accent bg-white/80 backdrop-blur-sm">
               <CardHeader>
-                <CardTitle className="text-accent">Pagamentos Limitados</CardTitle>
+                <CardTitle className="text-accent">Pagamentos Modernos</CardTitle>
                 <CardDescription>
-                  Ausência de opções de pagamento modernas afasta potenciais clientes.
+                  Importância de oferecer opções de pagamento modernas para atrair mais clientes.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -169,7 +169,7 @@ const Index = () => {
                 <Target className="w-12 h-12 text-primary mb-4" />
                 <CardTitle className="text-primary">Autonomia Total</CardTitle>
                 <CardDescription>
-                  Liberte-se de intermediários e pousadas. Gerencie seus clientes e diárias de forma independente.
+                  Trabalhe de forma independente com total controle sobre seus clientes e diárias.
                 </CardDescription>
               </CardHeader>
             </Card>
@@ -225,42 +225,16 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t py-12 px-4 bg-white">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-gradient-to-r from-primary to-secondary rounded-lg flex items-center justify-center">
-                  <Fish className="w-5 h-5 text-white" />
-                </div>
-                <span className="text-xl font-bold text-primary">iFishing</span>
+          <div className="text-center">
+            <div className="flex items-center space-x-2 mb-4 justify-center">
+              <div className="w-8 h-8 bg-gradient-to-r from-primary to-secondary rounded-lg flex items-center justify-center">
+                <Fish className="w-5 h-5 text-white" />
               </div>
-              <p className="text-muted-foreground">
-                A plataforma que conecta guias de pesca a pescadores em todo o Brasil.
-              </p>
+              <span className="text-xl font-bold text-primary">iFishing</span>
             </div>
-            <div>
-              <h4 className="font-semibold mb-4">Para Guias</h4>
-              <ul className="space-y-2 text-muted-foreground">
-                <li><a href="#" className="hover:text-primary transition-colors">Criar Perfil</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Gerenciar Diárias</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Dicas</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Para Pescadores</h4>
-              <ul className="space-y-2 text-muted-foreground">
-                <li><a href="#" className="hover:text-primary transition-colors">Encontrar Guias</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Regiões</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Avaliações</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-4">Empresa</h4>
-              <ul className="space-y-2 text-muted-foreground">
-                <li><a href="#" className="hover:text-primary transition-colors">Sobre</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Contato</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Suporte</a></li>
-              </ul>
-            </div>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              A plataforma que conecta guias de pesca a pescadores em todo o Brasil.
+            </p>
           </div>
           <div className="border-t pt-8 mt-8 text-center text-muted-foreground">
             <p>&copy; 2024 iFishing. Todos os direitos reservados.</p>
