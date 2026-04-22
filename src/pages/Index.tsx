@@ -79,14 +79,7 @@ const Index = () => {
               </CardHeader>
             </Card>
 
-            {/* <Card className="border-l-4 border-l-accent bg-white/80 backdrop-blur-sm">
-              <CardHeader>
-                <CardTitle className="text-accent">Pagamentos Modernos</CardTitle>
-                <CardDescription>
-                  Importância de oferecer opções de pagamento modernas para atrair mais clientes.
-                </CardDescription>
-              </CardHeader>
-            </Card> */}
+
           </div>
         </div>
       </section>
@@ -261,7 +254,7 @@ const Index = () => {
             </p>
           </div>
           <div className="border-t pt-8 mt-8 text-center text-muted-foreground">
-            <p>&copy; 2025 iFishing. Todos os direitos reservados.</p>
+            <p>&copy; 2026 iFishing. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
