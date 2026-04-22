@@ -26,7 +26,7 @@ const Index = () => {
 
       {/* Hero Section */}
       <section className="relative py-20 px-4 overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${heroImage})` }}
         />
@@ -39,7 +39,7 @@ const Index = () => {
             Conectamos Guias de Pesca a Pescadores
           </h1>
           <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto drop-shadow-md">
-            A plataforma que oferece aos guias de pesca maior autonomia, visibilidade e 
+            A plataforma que oferece aos guias de pesca maior autonomia, visibilidade e
             ferramentas modernas para aumentar suas diárias e expandir seu negócio.
           </p>
           <div className="flex justify-center">
@@ -59,7 +59,7 @@ const Index = () => {
               Guias enfrentam desafios que limitam seu crescimento e autonomia profissional.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card className="border-l-4 border-l-primary bg-white/80 backdrop-blur-sm">
               <CardHeader>
@@ -69,7 +69,7 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
             </Card>
-            
+
             <Card className="border-l-4 border-l-secondary bg-white/80 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-secondary">Visibilidade Digital</CardTitle>
@@ -78,15 +78,15 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
             </Card>
-            
-            <Card className="border-l-4 border-l-accent bg-white/80 backdrop-blur-sm">
+
+            {/* <Card className="border-l-4 border-l-accent bg-white/80 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-accent">Pagamentos Modernos</CardTitle>
                 <CardDescription>
                   Importância de oferecer opções de pagamento modernas para atrair mais clientes.
                 </CardDescription>
               </CardHeader>
-            </Card>
+            </Card> */}
           </div>
         </div>
       </section>
@@ -100,7 +100,7 @@ const Index = () => {
               Uma plataforma simples e eficiente que conecta guias e pescadores de forma direta.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <Card className="text-center bg-white/80 backdrop-blur-sm border-primary/20 hover:shadow-lg transition-shadow">
               <CardHeader>
@@ -113,7 +113,7 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
             </Card>
-            
+
             <Card className="text-center bg-white/80 backdrop-blur-sm border-primary/20 hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
@@ -125,7 +125,7 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
             </Card>
-            
+
             <Card className="text-center bg-white/80 backdrop-blur-sm border-primary/20 hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
@@ -137,7 +137,7 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
             </Card>
-            
+
             <Card className="text-center bg-white/80 backdrop-blur-sm border-primary/20 hover:shadow-lg transition-shadow">
               <CardHeader>
                 <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
@@ -162,7 +162,7 @@ const Index = () => {
               Transforme sua atividade de guia de pesca com ferramentas profissionais e modernas.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card className="bg-white/80 backdrop-blur-sm border-primary/20">
               <CardHeader>
@@ -173,7 +173,7 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
             </Card>
-            
+
             <Card className="bg-white/80 backdrop-blur-sm border-secondary/20">
               <CardHeader>
                 <Shield className="w-12 h-12 text-secondary mb-4" />
@@ -183,7 +183,7 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
             </Card>
-            
+
             <Card className="bg-white/80 backdrop-blur-sm border-accent/20">
               <CardHeader>
                 <MapPin className="w-12 h-12 text-accent mb-4" />
@@ -193,7 +193,7 @@ const Index = () => {
                 </CardDescription>
               </CardHeader>
             </Card>
-            
+
             <Card className="bg-white/80 backdrop-blur-sm border-primary/20">
               <CardHeader>
                 <Star className="w-12 h-12 text-primary mb-4" />
@@ -231,7 +231,7 @@ const Index = () => {
               Fale conosco para mais informações sobre o iFishing.
             </p>
           </div>
-          
+
           <div className="max-w-sm mx-auto text-center">
             <div className="flex items-center justify-center space-x-3">
               <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
