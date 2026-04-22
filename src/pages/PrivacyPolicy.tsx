@@ -20,63 +20,62 @@ const PrivacyPolicy = () => {
           </Button>
         </div>
 
-        <h1 className="text-3xl font-bold mb-6 text-primary">Política de Privacidade</h1>
-        <p className="text-muted-foreground mb-4">Última atualização: 22 de Abril de 2026</p>
+        <h1 className="text-3xl font-bold mb-6 text-primary">Política de Privacidade - iFishing</h1>
+        <p className="text-muted-foreground mb-8">Data da última atualização: 21 de abril de 2026</p>
 
-        <section className="space-y-6">
-          <div>
-            <h2 className="text-xl font-semibold mb-3 text-primary">1. Introdução</h2>
-            <p>
-              O iFishing ("nós", "nosso") está comprometido em proteger sua privacidade. Esta Política de Privacidade explica como coletamos, usamos e protegemos suas informações ao utilizar nosso aplicativo móvel e serviços relacionados.
-            </p>
-          </div>
+        <section className="space-y-8 text-sm md:text-base leading-relaxed">
+          <p>
+            O iFishing ("nós", "nosso"), como controlador dos dados, respeita a sua privacidade. Esta política descreve como tratamos seus dados em conformidade com a Lei Geral de Proteção de Dados (LGPD).
+          </p>
 
           <div>
-            <h2 className="text-xl font-semibold mb-3 text-primary">2. Informações que Coletamos</h2>
-            <ul className="list-disc pl-6 space-y-2">
-              <li><strong>Informações do Perfil:</strong> Nome, e-mail e foto para identificação no sistema.</li>
-              <li><strong>Localização:</strong> Coletamos dados de localização para ajudar pescadores a encontrarem guias próximos e para o mapeamento de pontos de pesca.</li>
-              <li><strong>Dados de Transação:</strong> Detalhes básicos sobre reservas e pagamentos realizados através da plataforma.</li>
-              <li><strong>Informações do Dispositivo:</strong> Modelo do aparelho, sistema operacional e identificadores únicos para melhorar a performance do app.</li>
+            <h2 className="text-xl font-semibold mb-3 text-primary">1. Dados Coletados e Base Legal</h2>
+            <p className="mb-4">Coletamos dados estritamente necessários para oferecer nossos serviços:</p>
+            <ul className="list-disc pl-6 space-y-4">
+              <li>
+                <strong>Dados Cadastrais:</strong> Nome, e-mail e telefone. <br/>
+                <span className="text-muted-foreground italic">Base Legal: Execução de contrato (necessários para a prestação do serviço de reservas e uso da plataforma).</span>
+              </li>
+              <li>
+                <strong>Permissão de Câmera:</strong> Acesso à câmera para fotos de perfil/guia. <br/>
+                <span className="text-muted-foreground italic">Base Legal: Consentimento (você autoriza o uso no momento da captura).</span>
+              </li>
             </ul>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-3 text-primary">3. Uso das Informações</h2>
-            <p>Utilizamos os dados coletados para:</p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Conectar pescadores a guias de pesca.</li>
-              <li>Processar agendamentos e pagamentos.</li>
-              <li>Enviar notificações sobre suas reservas.</li>
-              <li>Melhorar continuamente a experiência do usuário e a segurança da plataforma.</li>
+            <h2 className="text-xl font-semibold mb-3 text-primary">2. Finalidade do Tratamento</h2>
+            <p className="mb-2">Utilizamos seus dados para:</p>
+            <ul className="list-disc pl-6 space-y-1">
+              <li>Identificar você na plataforma;</li>
+              <li>Permitir a comunicação entre usuários e guias;</li>
+              <li>Gerenciar sua conta e preferências.</li>
             </ul>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-3 text-primary">4. Compartilhamento de Dados</h2>
+            <h2 className="text-xl font-semibold mb-3 text-primary">3. Compartilhamento e Armazenamento</h2>
             <p>
-              Não vendemos seus dados pessoais. Compartilhamos informações apenas com os guias (para realizar a pescaria contratada) e com processadores de pagamento seguros. Podemos compartilhar dados anônimos para fins de análise estatística.
+              Não compartilhamos, vendemos ou alugamos dados para terceiros. Seus dados são armazenados apenas pelo tempo necessário para a manutenção da sua conta no iFishing. Ao excluir sua conta, seus dados são removidos de nossos registros, exceto quando precisamos mantê-los para cumprimento de obrigações legais.
             </p>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-3 text-primary">5. Segurança</h2>
-            <p>
-              Implementamos medidas de segurança técnicas e organizacionais para proteger seus dados contra acesso não autorizado, alteração ou destruição.
-            </p>
+            <h2 className="text-xl font-semibold mb-3 text-primary">4. Seus Direitos (LGPD)</h2>
+            <p className="mb-2">Você, como titular dos dados, possui os seguintes direitos:</p>
+            <ul className="list-disc pl-6 space-y-1">
+              <li><strong>Acesso:</strong> Solicitar uma cópia dos dados que possuímos sobre você.</li>
+              <li><strong>Correção:</strong> Solicitar a correção de dados incompletos ou inexatos.</li>
+              <li><strong>Exclusão:</strong> Solicitar a exclusão definitiva dos seus dados.</li>
+              <li><strong>Portabilidade:</strong> Solicitar a transferência dos seus dados para outro fornecedor.</li>
+              <li><strong>Revogação de Consentimento:</strong> Retirar a autorização para o uso da câmera a qualquer momento.</li>
+            </ul>
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-3 text-primary">6. Seus Direitos</h2>
+            <h2 className="text-xl font-semibold mb-3 text-primary">5. Segurança e Contato</h2>
             <p>
-              Você tem o direito de acessar, corrigir ou excluir seus dados pessoais a qualquer momento através das configurações do aplicativo ou entrando em contato conosco.
-            </p>
-          </div>
-
-          <div>
-            <h2 className="text-xl font-semibold mb-3 text-primary">7. Contato</h2>
-            <p>
-              Para dúvidas sobre esta política, entre em contato através do e-mail: <span className="font-semibold">ti@ifishing.com.br</span>
+              Adotamos medidas técnicas para proteger seus dados. Para exercer seus direitos ou tirar dúvidas, entre em contato com nosso Encarregado de Dados (DPO) através do e-mail: <span className="font-semibold text-primary">ti@ifishing.com.br</span>
             </p>
           </div>
         </section>
