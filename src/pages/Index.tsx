@@ -255,6 +255,9 @@ const Index = () => {
           </div>
           <div className="border-t pt-8 mt-8 text-center text-muted-foreground">
             <p>&copy; 2026 iFishing. Todos os direitos reservados.</p>
+            <div className="mt-2">
+              <a href="/privacy" className="hover:text-primary transition-colors text-sm">Política de Privacidade</a>
+            </div>
           </div>
         </div>
       </footer>
